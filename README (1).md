@@ -232,7 +232,7 @@ Once the certificate arrives, uncomment this block:
 - My two teammates on the Lung Cancer Prediction capstone project
 
 ## 📬 Connect
-
-- GitHub: *(add your profile link)*
-- LinkedIn: *(add your profile link)*
-- Email: *(add your email)*
+[
+- GitHub: *https://github.com/omar-SciTech*
+- LinkedIn: *www.linkedin.com/in/omar-mohamed-g*
+- Email: *omarmgamaleldin7@gmail.com*
