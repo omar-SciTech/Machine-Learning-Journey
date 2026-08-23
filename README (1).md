@@ -191,8 +191,8 @@ Python · Jupyter Notebook · NumPy · SciPy · Pandas · Matplotlib · Seaborn 
 ## 🚀 Getting Started
 
 ```bash
-git clone <this-repo-url>
-cd machine-learning-journey
+git clone https://github.com/omar-SciTech/Machine-Learning-Journey.git
+cd Machine-Learning-Journey
 pip install -r requirements.txt
 jupyter notebook
 ```
