@@ -233,6 +233,6 @@ Once the certificate arrives, uncomment this block:
 
 ## 📬 Connect
 
-- GitHub: *(add your profile link)*
-- LinkedIn: *(add your profile link)*
-- Email: *(add your email)*
+- GitHub: *https://github.com/omar-SciTech*
+- LinkedIn: *www.linkedin.com/in/omar-mohamed-g*
+- Email: *omarmgamaleldin7@gmail.com*
