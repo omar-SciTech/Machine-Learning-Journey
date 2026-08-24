@@ -86,7 +86,7 @@ Machine-Learning-Journey/
 │   ├── linreg-carprice/
 │   ├── linreg-houseprice/
 │   ├── naive-bayes-income/
-│   ├── svm_iris_calssification/
+│   ├── svm_iris_classification/
 │   ├── DB & PCA.ipynb
 │   ├── DTC.ipynb
 │   ├── Decision-Tree-Reg.ipynb
@@ -147,7 +147,7 @@ The core data-science toolkit (NumPy, SciPy, sparse matrices, Matplotlib, Pandas
 | `Housing_Price_Prediction/` | Linear Regression | End-to-end real estate pricing workflow with data cleaning and feature engineering |
 | `logreg-basic.ipynb` | Logistic Regression | Breast cancer classification (94.74% test accuracy) |
 | `logreg_diabetes_eval.ipynb` | Logistic Regression | Diabetes classification with scaling, confusion matrix, classification report, ROC curve, and decision boundary |
-| `svm.ipynb`, `svm_iris_calssification/` | Support Vector Machines | Iris species classification with linear and non-linear kernel spaces |
+| `svm.ipynb`, `svm_iris_classification/` | Support Vector Machines | Iris species classification with linear and non-linear kernel spaces |
 | `KNN/` | K-Nearest Neighbors | Wheat-seed classification (PCA-reduced) and Wisconsin breast-cancer diagnosis, with a full hyperparameter search across scalers, reducers, K, and weighting schemes |
 | `naive-bayes-income/` | Gaussian Naive Bayes | Income-bracket classification on the Adult/Census dataset — full EDA, encoding, and evaluation |
 | `DTC.ipynb`, `Decision-Tree-Reg.ipynb` | Decision Trees | Classification and regression variants |
