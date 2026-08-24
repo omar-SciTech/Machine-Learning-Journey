@@ -116,64 +116,64 @@ Machine-Learning-Journey/
 
 ## 🧠 What's Inside
 
-### 🐍 Python Fundamentals — `python/`
+### 🐍 Python Fundamentals — [`python/`](./python)
 
-Core language practice: introductory setup script (`intro.py`), syntax basics (`basics.ipynb`), object-oriented programming with classes, inheritance, and magic methods (`oop.ipynb`), data structures (`datastructure.ipynb`), algorithms (`Algorithms.ipynb`), control flow (`programflow.ipynb`), idiomatic ("pythonic") code (`pythonic.ipynb`), and a comprehensive reference cheat sheet (`python_cheat_sheet_250710_120729.pdf`).
+Core language practice: introductory setup script ([`intro.py`](./python/intro.py)), syntax basics ([`basics.ipynb`](./python/basics.ipynb)), object-oriented programming with classes, inheritance, and magic methods ([`oop.ipynb`](./python/oop.ipynb)), data structures ([`datastructure.ipynb`](./python/datastructure.ipynb)), algorithms ([`Algorithms.ipynb`](./python/Algorithms.ipynb)), control flow ([`programflow.ipynb`](./python/programflow.ipynb)), idiomatic ("pythonic") code ([`pythonic.ipynb`](./python/pythonic.ipynb)), and a comprehensive reference cheat sheet ([`python_cheat_sheet_250710_120729.pdf`](./python/python_cheat_sheet_250710_120729.pdf)).
 
-### 📊 Data Analytics for ML — `Data Analytics For ML/`
+### 📊 Data Analytics for ML — [`Data Analytics For ML/`](./Data%20Analytics%20For%20ML)
 
-The core data-science toolkit (NumPy, SciPy, sparse matrices, Matplotlib, Pandas) housed under `Data Science/`, plus applied exploratory data analysis projects:
+The core data-science toolkit (NumPy, SciPy, sparse matrices, Matplotlib, Pandas) housed under [`Data Science/`](./Data%20Analytics%20For%20ML/Data%20Science), plus applied exploratory data analysis projects:
 
 | Project / Notebook | What it covers |
 |---|---|
-| `Data Science/0. Setup.ipynb` | Environment configuration, package verification, and workspace setup |
-| `Data Science/1 Numpy.ipynb` | Multidimensional arrays, slicing, vectorization, and linear algebra operations |
-| `Data Science/2 Scipy.ipynb` & `2.1 Sparse Matrices.ipynb` | Scientific computing routines and memory-efficient sparse matrix representations |
-| `Data Science/3 Matplotlib.ipynb` | Static data visualization, custom plots, subplots, and styling |
-| `Data Science/Pandas_intro.ipynb` & `pandas-and-jupyter-notebook.ipynb` | Data wrangling, DataFrame manipulation, filtering, aggregation, and notebook workflows |
-| `covid-global-plotly/` | Global COVID-19 trends visualized interactively with Plotly (bar, scatter, and table views) |
-| `covid19-california-counties-analysis.ipynb` | County-level case/death analysis for California, with 7-day rolling averages |
-| `covid19-california-percapita-ranking.ipynb` | Per-capita normalization and top-10 county ranking, building on the analysis above |
-| `flights-delay-analysis/` | Flight delay patterns by month, day, and airport using Pandas |
+| [`Data Science/0. Setup.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/0.%20Setup.ipynb) | Environment configuration, package verification, and workspace setup |
+| [`Data Science/1 Numpy.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/1%20Numpy.ipynb) | Multidimensional arrays, slicing, vectorization, and linear algebra operations |
+| [`Data Science/2 Scipy.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/2%20Scipy.ipynb) & [`2.1 Sparse Matrices.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/2.1%20Sparse%20Matrices.ipynb) | Scientific computing routines and memory-efficient sparse matrix representations |
+| [`Data Science/3 Matplotlib.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/3%20Matplotlib.ipynb) | Static data visualization, custom plots, subplots, and styling |
+| [`Data Science/Pandas_intro.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/Pandas_intro.ipynb) & [`pandas-and-jupyter-notebook.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/pandas-and-jupyter-notebook.ipynb) | Data wrangling, DataFrame manipulation, filtering, aggregation, and notebook workflows |
+| [`covid-global-plotly/`](./Data%20Analytics%20For%20ML/covid-global-plotly) | Global COVID-19 trends visualized interactively with Plotly (bar, scatter, and table views) |
+| [`covid19-california-counties-analysis.ipynb`](./Data%20Analytics%20For%20ML/covid19-california-counties-analysis.ipynb) | County-level case/death analysis for California, with 7-day rolling averages |
+| [`covid19-california-percapita-ranking.ipynb`](./Data%20Analytics%20For%20ML/covid19-california-percapita-ranking.ipynb) | Per-capita normalization and top-10 county ranking, building on the analysis above |
+| [`flights-delay-analysis/`](./Data%20Analytics%20For%20ML/flights-delay-analysis) | Flight delay patterns by month, day, and airport using Pandas |
 
-### 🤖 Machine Learning — `ML/`
+### 🤖 Machine Learning — [`ML/`](./ML)
 
 **Supervised Learning**
 
 | Notebook / Folder | Algorithm | Notes |
 |---|---|---|
-| `linreg-carprice/` | Linear Regression | Predicting resale car price from vehicle features, with full EDA and correlation analysis |
-| `linreg-houseprice/` | Linear Regression | Predicting house prices |
-| `Housing_Price_Prediction/` | Linear Regression | End-to-end real estate pricing workflow with data cleaning and feature engineering |
-| `logreg-basic.ipynb` | Logistic Regression | Breast cancer classification (94.74% test accuracy) |
-| `logreg_diabetes_eval.ipynb` | Logistic Regression | Diabetes classification with scaling, confusion matrix, classification report, ROC curve, and decision boundary |
-| `svm.ipynb`, `svm_iris_classification/` | Support Vector Machines | Iris species classification with linear and non-linear kernel spaces |
-| `KNN/` | K-Nearest Neighbors | Wheat-seed classification (PCA-reduced) and Wisconsin breast-cancer diagnosis, with a full hyperparameter search across scalers, reducers, K, and weighting schemes |
-| `naive-bayes-income/` | Gaussian Naive Bayes | Income-bracket classification on the Adult/Census dataset — full EDA, encoding, and evaluation |
-| `DTC.ipynb`, `Decision-Tree-Reg.ipynb` | Decision Trees | Classification and regression variants |
-| `forest.ipynb`, `rand_forest.ipynb` | Random Forests | Ensemble classification |
-| `Gradient Boosting.ipynb` | Gradient Boosting | Boosted ensemble classification |
-| `Sklearn & Machine Learning.ipynb` | Scikit-Learn Workflows | Unified estimators, transformers, and model evaluation pipelines |
+| [`linreg-carprice/`](./ML/linreg-carprice) | Linear Regression | Predicting resale car price from vehicle features, with full EDA and correlation analysis |
+| [`linreg-houseprice/`](./ML/linreg-houseprice) | Linear Regression | Predicting house prices |
+| [`Housing_Price_Prediction/`](./ML/Housing_Price_Prediction) | Linear Regression | End-to-end real estate pricing workflow with data cleaning and feature engineering |
+| [`logreg-basic.ipynb`](./ML/logreg-basic.ipynb) | Logistic Regression | Breast cancer classification (94.74% test accuracy) |
+| [`logreg_diabetes_eval.ipynb`](./ML/logreg_diabetes_eval.ipynb) | Logistic Regression | Diabetes classification with scaling, confusion matrix, classification report, ROC curve, and decision boundary |
+| [`svm.ipynb`](./ML/svm.ipynb), [`svm_iris_classification/`](./ML/svm_iris_classification) | Support Vector Machines | Iris species classification with linear and non-linear kernel spaces |
+| [`KNN/`](./ML/KNN) | K-Nearest Neighbors | Wheat-seed classification (PCA-reduced) and Wisconsin breast-cancer diagnosis, with a full hyperparameter search across scalers, reducers, K, and weighting schemes |
+| [`naive-bayes-income/`](./ML/naive-bayes-income) | Gaussian Naive Bayes | Income-bracket classification on the Adult/Census dataset — full EDA, encoding, and evaluation |
+| [`DTC.ipynb`](./ML/DTC.ipynb), [`Decision-Tree-Reg.ipynb`](./ML/Decision-Tree-Reg.ipynb) | Decision Trees | Classification and regression variants |
+| [`forest.ipynb`](./ML/forest.ipynb), [`rand_forest.ipynb`](./ML/rand_forest.ipynb) | Random Forests | Ensemble classification |
+| [`Gradient Boosting.ipynb`](./ML/Gradient%20Boosting.ipynb) | Gradient Boosting | Boosted ensemble classification |
+| [`Sklearn & Machine Learning.ipynb`](./ML/Sklearn%20&%20Machine%20Learning.ipynb) | Scikit-Learn Workflows | Unified estimators, transformers, and model evaluation pipelines |
 
 **Unsupervised Learning & Dimensionality Reduction**
 
 | Notebook / Folder | Algorithm | Notes |
 |---|---|---|
-| `basic-kmeans.ipynb`, `kmeans-ram.ipynb` | K-Means | Core clustering practice & RAM benchmark clustering |
-| `Store_clustering/` | K-Means | Applied to retail/store data |
-| `Hierarchical Clustering.ipynb` | Agglomerative Clustering | Hierarchical grouping & dendrogram analysis |
-| `customer-segments.ipynb` | DBSCAN, K-Means, Agglomerative | Customer segmentation, comparing all three algorithms on the same data |
-| `PCA.ipynb`, `DB & PCA.ipynb` | PCA & DBSCAN | Dimensionality reduction and density-based clustering exploration |
+| [`basic-kmeans.ipynb`](./ML/basic-kmeans.ipynb), [`kmeans-ram.ipynb`](./ML/kmeans-ram.ipynb) | K-Means | Core clustering practice & RAM benchmark clustering |
+| [`Store_clustering/`](./ML/Store_clustering) | K-Means | Applied to retail/store data |
+| [`Hierarchical Clustering.ipynb`](./ML/Hierarchical%20Clustering.ipynb) | Agglomerative Clustering | Hierarchical grouping & dendrogram analysis |
+| [`customer-segments.ipynb`](./ML/customer-segments.ipynb) | DBSCAN, K-Means, Agglomerative | Customer segmentation, comparing all three algorithms on the same data |
+| [`PCA.ipynb`](./ML/PCA.ipynb), [`DB & PCA.ipynb`](./ML/DB%20&%20PCA.ipynb) | PCA & DBSCAN | Dimensionality reduction and density-based clustering exploration |
 
 **Neural Networks**
 
 | Notebook | Notes |
 |---|---|
-| `Fruit NN.ipynb`, `basic neural network.ipynb` | A first neural network built with TensorFlow/Keras, focused on understanding raw logits vs. Softmax probabilities and multi-class fruit classification |
+| [`Fruit NN.ipynb`](./ML/Fruit%20NN.ipynb), [`basic neural network.ipynb`](./ML/basic%20neural%20network.ipynb) | A first neural network built with TensorFlow/Keras, focused on understanding raw logits vs. Softmax probabilities and multi-class fruit classification |
 
-### 🏆 Capstone Project — `Big project/`
+### 🏆 Capstone Project — [`Big project/`](./Big%20project)
 
-The program's major applied project (`Lung Cancer Prediction.ipynb`), built collaboratively with **two teammates** as a complete, end-to-end machine learning application rather than a single-technique exercise.
+The program's major applied project ([`Lung Cancer Prediction.ipynb`](./Big%20project/Lung%20Cancer%20Prediction.ipynb)), built collaboratively with **two teammates** as a complete, end-to-end machine learning application rather than a single-technique exercise.
 
 **My role:** I owned the **AI/ML modeling side** — building, tuning, and evaluating the classification models — and the **deployment layer**, packaging the final model and wrapping it in an interactive interface. Debugging and problem-solving were a genuine team effort throughout, with real collaboration on every blocker we hit.
 
@@ -245,6 +245,6 @@ Once the certificate arrives, uncomment this block:
 
 ## 📬 Connect
 
-- GitHub: *https://github.com/omar-SciTech*
-- LinkedIn: *www.linkedin.com/in/omar-mohamed-g*
-- Email: *omarmgamaleldin7@gmail.com*
+- GitHub: [*https://github.com/omar-SciTech*](https://github.com/omar-SciTech)
+- LinkedIn: [*www.linkedin.com/in/omar-mohamed-g*](https://www.linkedin.com/in/omar-mohamed-g)
+- Email: [*omarmgamaleldin7@gmail.com*](mailto:omarmgamaleldin7@gmail.com)
