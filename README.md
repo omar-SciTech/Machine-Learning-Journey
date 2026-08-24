@@ -1,6 +1,6 @@
 # 🤖 Machine Learning Journey
 
-### A continuously growing Machine Learning portfolio — from self-taught foundations, through NTI × ITIDA training, to self-driven practice beyond it
+### A continuously growing Machine Learning portfolio — from NTI × ITIDA training, to self-driven practice beyond it
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
