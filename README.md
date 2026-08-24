@@ -52,7 +52,7 @@ Every notebook here was written and run by me — not copied from a lecture and 
 
 ## 🗂️ Repository Structure
 
-```text
+```
 Machine-Learning-Journey/
 │
 ├── python/                                  # Core Python practice
@@ -129,7 +129,7 @@ The core data-science toolkit (NumPy, SciPy, sparse matrices, Matplotlib, Pandas
 | [`Data Science/0. Setup.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/0.%20Setup.ipynb) | Environment configuration, package verification, and workspace setup |
 | [`Data Science/1 Numpy.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/1%20Numpy.ipynb) | Multidimensional arrays, slicing, vectorization, and linear algebra operations |
 | [`Data Science/2 Scipy.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/2%20Scipy.ipynb) & [`2.1 Sparse Matrices.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/2.1%20Sparse%20Matrices.ipynb) | Scientific computing routines and memory-efficient sparse matrix representations |
-| [`Data Science/3 Matplotlib.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/3%20Matplotlib.ipynb) | Static data visualization, custom plots, subplots, and styling |
+| [`Data Science/3 Matplotlib.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/3.%20Matplotlib.ipynb) | Static data visualization, custom plots, subplots, and styling |
 | [`Data Science/Pandas_intro.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/Pandas_intro.ipynb) & [`pandas-and-jupyter-notebook.ipynb`](./Data%20Analytics%20For%20ML/Data%20Science/pandas-and-jupyter-notebook.ipynb) | Data wrangling, DataFrame manipulation, filtering, aggregation, and notebook workflows |
 | [`covid-global-plotly/`](./Data%20Analytics%20For%20ML/covid-global-plotly) | Global COVID-19 trends visualized interactively with Plotly (bar, scatter, and table views) |
 | [`covid19-california-counties-analysis.ipynb`](./Data%20Analytics%20For%20ML/covid19-california-counties-analysis.ipynb) | County-level case/death analysis for California, with 7-day rolling averages |
@@ -173,17 +173,28 @@ The core data-science toolkit (NumPy, SciPy, sparse matrices, Matplotlib, Pandas
 
 ### 🏆 Capstone Project — [`Big project/`](./Big%20project)
 
-The program's major applied project ([`Lung Cancer Prediction.ipynb`](./Big%20project/Lung%20Cancer%20Prediction.ipynb)), built collaboratively with **two teammates** as a complete, end-to-end machine learning application rather than a single-technique exercise.
+The program's major applied project ([`Lung Cancer Prediction.ipynb`](./Big%20project/Lung%20Cancer%20Prediction.ipynb)), built collaboratively with **two teammates** as a complete, end-to-end machine learning workflow covering data analysis, preprocessing, model development, evaluation, model selection, serialization, and an interactive Gradio interface.
 
-**My role:** I owned the **AI/ML modeling side** — building, tuning, and evaluating the classification models — and the **deployment layer**, packaging the final model and wrapping it in an interactive interface. Debugging and problem-solving were a genuine team effort throughout, with real collaboration on every blocker we hit.
+**My role:** I owned the **AI/ML modeling side** — building, tuning, comparing, and evaluating the classification models — and the **deployment layer**, packaging the final model and wrapping it in an interactive interface. Debugging and problem-solving were a genuine team effort throughout, with real collaboration on every blocker we hit.
 
 **Pipeline:**
-1. **EDA** — univariate, bivariate, and multivariate analysis of symptoms and lifestyle factors against the lung cancer diagnosis
-2. **Preprocessing** — de-duplication, outlier handling, encoding
+1. **EDA** — univariate, bivariate, and multivariate analysis of symptoms and lifestyle factors against the target outcome
+2. **Preprocessing** — de-duplication, outlier handling, and categorical/binary encoding
 3. **Modeling** — Decision Tree, Random Forest, AdaBoost, and Gradient Boosting classifiers, each tuned via `GridSearchCV`
-4. **Model selection** — compared with cross-validated F1 score, to account for class imbalance
-5. **Evaluation** — confusion matrices, classification reports, feature-importance rankings
-6. **Deployment** — best model serialized with `joblib` and served through a Gradio web interface
+4. **Model selection** — compared with cross-validated F1 score to account for class imbalance
+5. **Evaluation** — confusion matrices, classification reports, feature-importance rankings, and ROC-AUC
+6. **Deployment** — best model serialized with `joblib` and integrated into an interactive Gradio interface
+
+**Key Results:**
+- **Best model:** Random Forest
+- **Cross-validated F1:** 0.9358
+- **Test Accuracy:** 91.2%
+- **Test Precision:** 93.4%
+- **Test Recall:** 96.6%
+- **Test F1-score:** 95.0%
+- **Test ROC-AUC:** 0.962
+
+**Important:** This is an educational machine-learning project based on a small survey dataset and is not intended for clinical diagnosis or medical decision-making.
 
 ---
 
