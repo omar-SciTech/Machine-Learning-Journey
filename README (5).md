@@ -12,15 +12,19 @@
 
 ## 📖 About This Repository
 
-This repository traces a continuous, still-growing Machine Learning journey, built in three layers:
+This repository is a living, continuously evolving record of my Machine Learning journey. What started as the hands-on coursework and capstone for the **NTI × ITIDA Machine Learning Track** has expanded into an ongoing hub for deep self-study, from-scratch implementations, and independent end-to-end projects.
 
-1. **Foundations** (`python/`, `data-science/`) — Python and core data-science tooling, built independently as groundwork. The ML track itself lists "basic Python programming" and "basic math" as *prerequisites*, not something it teaches — so this layer came first, on my own.
-2. **Formal training** (`ml/`, and the capstone project inside `projects/`) — built through the **NTI × ITIDA Machine Learning track**, a 120-hour, project-based program covering classical ML end-to-end.
-3. **Self-driven practice** (`from-scratch/`, and every new addition to `projects/` since) — continuing on my own past the course: re-implementing every model mathematically from the ground up, and taking on new end-to-end projects outside any syllabus.
+Here is how the repository is structured:
 
-Even layer 2 wasn't just "show up and follow along." The program was demanding by design — **120 hours total** (90 hours of core Machine Learning, 30 hours of Soft Skills), with **mandatory attendance of 6 hours a day**, a meaningful part of it hands-on practical work, and a real assignment due after every single session. But a large part of what made it click for me was self-driven on top of that required schedule — extra reading, documentation, and AI-assisted exploration of anything a session only introduced at a high level. That same instinct is what layer 3 is now built entirely out of.
+* **Core Foundations & ML (`python/`, `data-science/`, `ml/`)** — Built during the intensive NTI program, covering foundational Python, data analysis tooling, and classical machine learning workflows through hands-on practice and rigorous daily assignments.
+* **Math & From-Scratch Implementations (`from-scratch/`)** — Deepening theoretical understanding by re-implementing core algorithms from mathematical first principles using pure NumPy/math, without relying on high-level abstractions.
+* **End-to-End Projects (`projects/`)** — Practical problem-solving, starting from the official program capstone and continuing with self-directed, full-pipeline ML projects built outside any syllabus.
 
-> *I made it a rule not to move past a single line of code until I understood exactly what it does, why it's there, and — where relevant — the math behind it. Understanding it properly always mattered more to me than finishing fast. `from-scratch/` is that rule taken to its logical end.*
+The NTI track itself was demanding by design — **120 hours total** (90 hours of core technical training across Python, Data Science, and ML, plus 30 hours of Soft Skills), with **mandatory attendance of 6 hours a day** and real assignments due after every single session. Every notebook here was actively written, tested, and explored — never passively copied. 
+
+On top of the official curriculum, a significant portion of this repo comes from continuous self-driven exploration — reading documentation, dissecting the math behind the models, and building beyond the course material.
+
+> *I made it a rule not to move past a single line of code until I understood exactly what it does, why it's there, and — where relevant — the math behind it. Understanding it properly always mattered more to me than finishing fast.*
 
 ---
 
