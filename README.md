@@ -118,7 +118,7 @@ Machine-Learning-Journey/
 
 ### 🐍 Python Fundamentals — [`python/`](./python)
 
-Core language practice: introductory setup script ([`intro.py`](./python/intro.py)), syntax basics ([`basics.ipynb`](./python/basics.ipynb)), object-oriented programming with classes, inheritance, and magic methods ([`oop.ipynb`](./python/oop.ipynb)), data structures ([`datastructure.ipynb`](./python/datastructure.ipynb)), algorithms ([`Algorithms.ipynb`](./python/Algorithms.ipynb)), control flow ([`programflow.ipynb`](./python/programflow.ipynb)), idiomatic ("pythonic") code ([`pythonic.ipynb`](./python/pythonic.ipynb)), and a comprehensive reference cheat sheet ([`python_cheat_sheet_250710_120729.pdf`](./python/python_cheat_sheet_250710_120729.pdf)).
+Core language practice: quick Python basics practice ([`intro.py`](./python/intro.py)), syntax basics ([`basics.ipynb`](./python/basics.ipynb)), object-oriented programming with classes, inheritance, and magic methods ([`oop.ipynb`](./python/oop.ipynb)), data structures ([`datastructure.ipynb`](./python/datastructure.ipynb)), algorithms ([`Algorithms.ipynb`](./python/Algorithms.ipynb)), control flow ([`programflow.ipynb`](./python/programflow.ipynb)), idiomatic ("pythonic") code ([`pythonic.ipynb`](./python/pythonic.ipynb)), and a comprehensive reference cheat sheet ([`python_cheat_sheet_250710_120729.pdf`](./python/python_cheat_sheet_250710_120729.pdf)).
 
 ### 📊 Data Analytics for ML — [`Data Analytics For ML/`](./Data%20Analytics%20For%20ML)
 
