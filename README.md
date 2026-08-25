@@ -245,18 +245,13 @@ Each project folder is self-contained with its own dataset, so its notebook can 
 
 ## 🎓 Certificate of Completion
 
-<!--
-Once the certificate arrives, uncomment this block:
 <p align="center">
   <img src="./assets/certificate.png" alt="NTI x ITIDA Machine Learning Certificate" width="600"/>
 </p>
--->
 
-| Institution | Track | Duration | Grade |
-|---|---|---|---|
-| NTI × ITIDA | Machine Learning — Summer Training | 120 hours | **_____** |
-
-*Certificate to be added here upon receipt.*
+| Institution | Track | Duration |
+|---|---|---|
+| NTI × ITIDA | Machine Learning — Summer Training | 120 hours |
 
 ---
 
