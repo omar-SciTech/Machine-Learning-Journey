@@ -52,7 +52,7 @@ Every notebook here was written and run by me — not copied from a lecture and 
 
 ## 🗂️ Repository Structure
 
-```
+```text
 Machine-Learning-Journey/
 │
 ├── python/                                  # Core Python practice
@@ -173,17 +173,17 @@ The core data-science toolkit (NumPy, SciPy, sparse matrices, Matplotlib, Pandas
 
 ### 🏆 Capstone Project — [`Big project/`](./Big%20project)
 
-The program's major applied project ([`Lung Cancer Prediction.ipynb`](./Big%20project/Lung%20Cancer%20Prediction.ipynb)), built collaboratively with **two teammates** as a complete, end-to-end machine learning workflow covering data analysis, preprocessing, model development, evaluation, model selection, serialization, and an interactive Gradio interface.
+The program's major applied project ([`Lung Cancer Prediction.ipynb`](./Big%20project/Lung%20Cancer%20Prediction.ipynb)), built collaboratively with **two teammates** as a complete, end-to-end machine learning workflow for classifying lung-cancer survey outcomes. The project goes beyond a single-model exercise, covering exploratory data analysis, data cleaning, class-imbalance-aware model selection, hyperparameter tuning, comparative evaluation of multiple ensemble classifiers, model serialization, and an interactive Gradio inference interface.
 
 **My role:** I owned the **AI/ML modeling side** — building, tuning, comparing, and evaluating the classification models — and the **deployment layer**, packaging the final model and wrapping it in an interactive interface. Debugging and problem-solving were a genuine team effort throughout, with real collaboration on every blocker we hit.
 
 **Pipeline:**
-1. **EDA** — univariate, bivariate, and multivariate analysis of symptoms and lifestyle factors against the target outcome
-2. **Preprocessing** — de-duplication, outlier handling, and categorical/binary encoding
+1. **EDA** — univariate, bivariate, and selected multivariate analysis of symptoms and lifestyle factors against the target outcome, including target-distribution and feature-distribution analysis
+2. **Preprocessing** — de-duplication, age outlier handling, whitespace cleanup, categorical/binary encoding, and preparation of the dataset for model training
 3. **Modeling** — Decision Tree, Random Forest, AdaBoost, and Gradient Boosting classifiers, each tuned via `GridSearchCV`
-4. **Model selection** — compared with cross-validated F1 score to account for class imbalance
-5. **Evaluation** — confusion matrices, classification reports, feature-importance rankings, and ROC-AUC
-6. **Deployment** — best model serialized with `joblib` and integrated into an interactive Gradio interface
+4. **Class Imbalance & Model Selection** — used stratified train/test splitting and cross-validated F1 scoring to evaluate models beyond accuracy and account for the imbalanced target distribution
+5. **Evaluation** — confusion matrices, classification reports, feature-importance rankings, ROC-AUC, and comparative analysis across the evaluated ensemble models
+6. **Inference & Deployment** — best model serialized with `joblib`, reloaded for inference, and integrated into an interactive Gradio interface for user-supplied feature inputs
 
 **Key Results:**
 - **Best model:** Random Forest
