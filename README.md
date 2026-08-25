@@ -246,7 +246,7 @@ Each project folder is self-contained with its own dataset, so its notebook can 
 ## 🎓 Certificate of Completion
 
 <p align="center">
-  <img src="./certificate.png" alt="NTI x ITIDA Machine Learning Certificate" width="600"/>
+  <img src="./Certificate/certificate.png" alt="NTI x ITIDA Machine Learning Certificate" width="600"/>
 </p>
 
 | Institution | Track | Duration |
