@@ -120,7 +120,18 @@ Machine-Learning-Journey/
 
 ### 🐍 Python Fundamentals — [`python/`](./python)
 
-Core language practice: a single-file crash course covering OOP, inheritance, and data structures — a custom `Rational` class with `__init__`, `__repr__`, and `__mul__`, a GCD-based fraction reducer, and `Rectangle`/`Square` inheritance with `super()` ([`intro.py`](./python/intro.py)), syntax basics ([`basics.ipynb`](./python/basics.ipynb)), object-oriented programming with classes, inheritance, and magic methods ([`oop.ipynb`](./python/oop.ipynb)), data structures — including searching and sorting algorithms, comprehensions, and the `collections` module (`namedtuple`, `deque`, `Counter`, `OrderedDict`, `defaultdict`) ([`datastructure.ipynb`](./python/datastructure.ipynb)), algorithms — Big O complexity analysis with real timing benchmarks and memoization ([`Algorithms.ipynb`](./python/Algorithms.ipynb)), control flow, functions, and recursion ([`programflow.ipynb`](./python/programflow.ipynb)), idiomatic ("pythonic") code, exception handling, and debugging ([`pythonic.ipynb`](./python/pythonic.ipynb)), and a comprehensive reference cheat sheet ([`python_cheat_sheet_250710_120729.pdf`](./python/python_cheat_sheet_250710_120729.pdf)).
+Core language practice covering programming paradigms, data structures, and algorithmic complexity:
+
+| File / Notebook | What it covers |
+|---|---|
+| [`intro.py`](./python/intro.py) | Single-file crash course: custom `Rational` class (`__init__`, `__repr__`, `__mul__`), GCD fraction reducer, and `Rectangle`/`Square` inheritance using `super()` |
+| [`basics.ipynb`](./python/basics.ipynb) | Python syntax fundamentals, data types, and core operations |
+| [`oop.ipynb`](./python/oop.ipynb) | Object-Oriented Programming principles: classes, inheritance, and magic (dunder) methods |
+| [`datastructure.ipynb`](./python/datastructure.ipynb) | Searching & sorting algorithms, comprehensions, and the `collections` module (`namedtuple`, `deque`, `Counter`, `OrderedDict`, `defaultdict`) |
+| [`Algorithms.ipynb`](./python/Algorithms.ipynb) | Big-O time & space complexity analysis, runtime benchmarking, and memoization techniques |
+| [`programflow.ipynb`](./python/programflow.ipynb) | Control flow logic, loops, custom functions, and recursion |
+| [`pythonic.ipynb`](./python/pythonic.ipynb) | Idiomatic ("Pythonic") best practices, robust exception handling, and debugging |
+| [`python_cheat_sheet_250710_120729.pdf`](./python/python_cheat_sheet_250710_120729.pdf) | Comprehensive reference guide and Python syntax cheat sheet |
 
 ### 📊 Data Analytics for ML — [`Data Analytics For ML/`](./Data%20Analytics%20For%20ML)
 
