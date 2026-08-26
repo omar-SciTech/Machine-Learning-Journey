@@ -249,6 +249,8 @@ Each project folder is self-contained with its own dataset, so its notebook can 
   <img src="./Certificate/certificate.png" alt="NTI x ITIDA Machine Learning Certificate" width="600"/>
 </p>
 
+<p align="center"><a href="./Certificate/Omar Mohamed Gamal El Din Mohamed.pdf">View original PDF</a></p>
+
 | Institution | Track | Duration |
 |---|---|---|
 | NTI × ITIDA | Machine Learning — Summer Training | 120 hours |
